@@ -8996,3 +8996,10 @@ Entries:
   id: 1024
   time: '2026-05-23T05:35:28.0000000+00:00'
   url: https://github.com/Trauma-Station/Trauma-Station/pull/2752
+- author: MayasMischief
+  changes:
+  - type: Tweak
+    message: Bola size reverted it's now a normal 2x2
+  id: 1025
+  time: '2026-05-23T05:36:15.0000000+00:00'
+  url: https://github.com/Trauma-Station/Trauma-Station/pull/2750
