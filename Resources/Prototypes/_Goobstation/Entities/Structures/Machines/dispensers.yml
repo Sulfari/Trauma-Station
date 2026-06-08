@@ -112,8 +112,8 @@
       Sulfur: 5
 
 - type: entity
-  id: ServiceEnergyChemDispenser
   parent: EnergyChemDispenser
+  id: ServiceEnergyChemDispenser
   name: energy food synthesizer
   suffix: energy
   description: A bluespace Chemical Dispenser that uses station energy to synthesize organic reagents. The future for chefs is here and now.
