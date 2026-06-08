@@ -100,7 +100,7 @@
   technologyPrerequisites:
   - ExtendedCommunications
 
-- type: technology  # Goobstation
+- type: technology
   id: ServiceBluespaceChemistry
   name: research-technology-service-energy-chem
   icon:

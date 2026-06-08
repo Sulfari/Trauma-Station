@@ -3,6 +3,9 @@
 - type: latheRecipePack
   id: OreSmelting
   recipes:
+  # <Trauma>
+  - OreBSCrystal
+  # </Trauma>
   - SheetSteel
   - SheetGlass1
   - SheetPlasma1
@@ -11,7 +14,6 @@
   - IngotSilver1
   - MaterialBananium1
   - MaterialDiamond
-  - OreBSCrystal # Jamboree - bluespace insertable and appear in silo
   - ArtifactFragment1 # Lavaland Change
 
 - type: latheRecipePack

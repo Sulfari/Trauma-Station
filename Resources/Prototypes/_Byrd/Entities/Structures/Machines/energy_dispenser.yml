@@ -68,7 +68,7 @@
   name: energy soda dispenser
   description: Soda? We got it! This bluespace dispenser, using station energy, produces a variety of non alchoholic drinks for the thirsty and the health conscious alike!
   components:
-  - type: Machine # Trauma
+  - type: Machine
     board: EnergySodaDispenserMachineCircuitboard
   - type: Sprite
     state: soda
