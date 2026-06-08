@@ -125,6 +125,7 @@
     FreezerHeaterStealObjective: 1
     TegStealObjective: 1
     BoozeDispenserStealObjective: 1
+    SodaDispenserStealObjective: 1 # Trauma - New objective for the soda dispenser machine
     AltarNanotrasenStealObjective: 1
     PlantRDStealObjective: 1
     ToiletGoldenStealObjective: 1

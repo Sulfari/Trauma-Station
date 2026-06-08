@@ -154,8 +154,8 @@
       Cable: 2
 
 - type: entity
-  id: VirologyServerMachineCircuitboard
   parent: BaseMachineCircuitboard
+  id: VirologyServerMachineCircuitboard
   name: virology server machine board
   description: A machine printed circuit board for a virology server.
   components:
@@ -164,3 +164,63 @@
       stackRequirements:
         Steel: 1
         Cable: 2
+
+- type: entity  # Food synthesizer
+  parent: BaseMachineCircuitboard
+  id: EnergyFoodSynthesizerMachineCircuitboard
+  name: energy food synthesizer machine board
+  description: A machine printed circuit board for a energy food synthesizer.
+  components:
+  - type: Sprite
+    state: service
+  - type: MachineBoard
+    prototype: ServiceEnergyChemDispenser
+    stackRequirements:
+      Manipulator: 3
+      Glass: 5
+      Steel: 5
+      BSCrystal: 1
+    tagRequirements:
+      GlassBeaker:
+        amount: 2
+        defaultPrototype: Beaker
+
+- type: entity
+  parent: BaseMachineCircuitboard
+  id: EnergyBoozeDispenserMachineCircuitboard
+  name: energy booze dispenser machine board
+  description: A machine printed circuit board for a energy food synthesizer.
+  components:
+  - type: Sprite
+    state: service
+  - type: MachineBoard
+    prototype: EnergyBoozeDispenser
+    stackRequirements:
+      Manipulator: 1
+      Glass: 5
+      Steel: 5
+      BSCrystal: 1
+    tagRequirements:
+      GlassBeaker:
+        amount: 2
+        defaultPrototype: Beaker
+
+- type: entity
+  parent: BaseMachineCircuitboard
+  id: EnergySodaDispenserMachineCircuitboard
+  name: energy soda dispenser machine board
+  description: A machine printed circuit board for a energy food synthesizer.
+  components:
+  - type: Sprite
+    state: service
+  - type: MachineBoard
+    prototype: EnergySodaDispenser
+    stackRequirements:
+      Manipulator: 1
+      Glass: 5
+      Steel: 5
+      BSCrystal: 1
+    tagRequirements:
+      GlassBeaker:
+        amount: 2
+        defaultPrototype: Beaker
