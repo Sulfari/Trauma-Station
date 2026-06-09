@@ -4,7 +4,6 @@
   id: OreSmelting
   recipes:
   # <Trauma>
-  - OreBSCrystal
   - ArtifactFragment1
   # </Trauma>
   - SheetSteel
