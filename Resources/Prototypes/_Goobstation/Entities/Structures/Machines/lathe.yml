@@ -270,6 +270,7 @@
     - ServiceBoardsGoob # goob
     # Einstein Engines Packs
     - Translators
+    - ServiceBoardsTrauma
   - type: EmagLatheRecipes
     emagStaticPacks:
     - ServiceBoardsEvilStatic # Donk Co microwave circiutboard
