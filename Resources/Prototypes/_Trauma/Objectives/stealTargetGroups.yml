@@ -1,6 +1,6 @@
 - type: stealTargetGroup
   id: SodaDispenser
-  name: soda dispenser
+  name: steal-target-groups-soda-dispenser
   sprite:
     sprite: Structures/smalldispensers.rsi
     state: soda
