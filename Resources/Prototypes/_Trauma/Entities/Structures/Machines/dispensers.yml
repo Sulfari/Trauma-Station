@@ -56,10 +56,10 @@
   - type: Sprite
     sprite: Structures/smalldispensers.rsi
     drawdepth: SmallObjects
+    snapCardinals: false
   - type: Rotatable
   - type: Transform
     noRot: false
-    snapCardinals: false
   - type: GuideHelp
     guides:
     - Bartender
