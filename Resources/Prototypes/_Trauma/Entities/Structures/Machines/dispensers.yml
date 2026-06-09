@@ -5,22 +5,17 @@
   suffix: energy
   description: A bluespace Chemical Dispenser that uses station energy to synthesize organic reagents. The future for chefs is here and now.
   components:
-  - type: Sprite
-    sprite: _Trauma/Structures/Machines/service_dispenser.rsi
-    state: industrial-working
-    snapCardinals: true
   - type: Machine
     board: EnergyFoodSynthesizerMachineCircuitboard
+  - type: Sprite
+    sprite: _Trauma/Structures/Machines/service_dispenser.rsi
   - type: GuideHelp
     guides:
     - Chef
     - FoodRecipes
-  - type: EnergyReagentDispenser #Keep on bottom for view's sake, format is reagentProto: Cost
-    energyBeakerSlot:
-      whitelistFailPopup: reagent-dispenser-component-cannot-put-entity-message
-      whitelist:
-        components:
-        - FitsInDispenser
+    state: industrial-working
+    snapCardinals: true
+  - type: EnergyReagentDispenser
     reagents:
       # Common cooking ingredients
       Flour: 4
@@ -58,13 +53,17 @@
   suffix: Energy
   abstract: true
   components:
-  - type: Rotatable
-  - type: Transform
-    noRot: false
   - type: Sprite
     sprite: Structures/smalldispensers.rsi
     drawdepth: SmallObjects
+  - type: Rotatable
+  - type: Transform
+    noRot: false
     snapCardinals: false
+  - type: GuideHelp
+    guides:
+    - Bartender
+    - Drinks
   - type: Fixtures
     fixtures:
       fix1:
@@ -76,10 +75,6 @@
         - TabletopMachineMask
         layer:
         - TabletopMachineLayer
-  - type: GuideHelp
-    guides:
-    - Bartender
-    - Drinks
 
 - type: entity
   parent: EnergyBarDispenserBase
