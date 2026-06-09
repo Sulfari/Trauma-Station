@@ -9,12 +9,12 @@
     board: EnergyFoodSynthesizerMachineCircuitboard
   - type: Sprite
     sprite: _Trauma/Structures/Machines/service_dispenser.rsi
+    state: industrial-working
+    snapCardinals: true
   - type: GuideHelp
     guides:
     - Chef
     - FoodRecipes
-    state: industrial-working
-    snapCardinals: true
   - type: EnergyReagentDispenser
     reagents:
       # Common cooking ingredients
