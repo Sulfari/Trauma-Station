@@ -135,8 +135,7 @@
     name: ghost-role-information-slimes-name
     description: ghost-role-information-slimes-description
     rules: ghost-role-information-nonantagonist-rules
-    raffle:
-      settings: null
+    raffle: null
   # </Trauma>
   - type: Speech
     speechVerb: Slime
@@ -174,8 +173,7 @@
       rules: ghost-role-information-angry-slimes-rules
       mindRoles:
       - MindRoleGhostRoleTeamAntagonist
-      raffle:
-        settings: null # Trauma - removed mob raffle timer
+      raffle: null # Trauma - removed mob raffle timer
     - type: NpcFactionMember
       factions:
         - SimpleHostile
@@ -214,8 +212,7 @@
       rules: ghost-role-information-angry-slimes-rules
       mindRoles:
       - MindRoleGhostRoleTeamAntagonist
-      raffle:
-        settings: null # Trauma - removed mob raffle timer
+      raffle: null # Trauma - removed mob raffle timer
     - type: NpcFactionMember
       factions:
         - SimpleHostile
@@ -253,8 +250,7 @@
       rules: ghost-role-information-angry-slimes-rules
       mindRoles:
       - MindRoleGhostRoleTeamAntagonist
-      raffle:
-        settings: null # Trauma - removed mob raffle timer
+      raffle: null # Trauma - removed mob raffle timer
     - type: NpcFactionMember
       factions:
         - SimpleHostile

@@ -13,8 +13,9 @@
     name: ghost-role-information-purple-snake-name
     description: ghost-role-information-purple-snake-description
     rules: ghost-role-information-antagonist-rules
-    raffle:
-      settings: null
+    mindRoles:
+    - MindRoleGhostRoleTeamAntagonist
+    raffle: null
   # </Trauma>
   - type: Sprite
     drawdepth: Mobs
@@ -103,8 +104,7 @@
     rules: ghost-role-information-antagonist-rules
     mindRoles:
     - MindRoleGhostRoleTeamAntagonist
-    raffle:
-      settings: null
+    raffle: null
   # </Trauma>
   - type: Sprite
     drawdepth: Mobs

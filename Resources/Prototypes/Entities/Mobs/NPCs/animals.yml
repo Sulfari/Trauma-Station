@@ -2777,8 +2777,7 @@
     rules: ghost-role-information-giant-spider-rules
     mindRoles:
     - MindRoleGhostRoleTeamAntagonist
-    raffle:
-      settings: null # Trauma - removed mob raffle timer
+    raffle: null # Trauma - removed mob raffle timer
   - type: NpcFactionMember
     factions:
       - Xeno

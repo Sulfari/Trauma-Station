@@ -322,8 +322,7 @@
       rules: ghost-role-information-antagonist-rules
       mindRoles:
       - MindRoleGhostRoleTeamAntagonist
-      raffle:
-        settings: null
+      raffle: null
     # </Trauma>
     # <Goob>
     - type: Fauna
