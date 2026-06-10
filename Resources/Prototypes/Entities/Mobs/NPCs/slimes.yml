@@ -175,7 +175,7 @@
       mindRoles:
       - MindRoleGhostRoleTeamAntagonist
       raffle:
-        settings: null
+        settings: null # Trauma - removed mob raffle timer
     - type: NpcFactionMember
       factions:
         - SimpleHostile
@@ -215,7 +215,7 @@
       mindRoles:
       - MindRoleGhostRoleTeamAntagonist
       raffle:
-        settings: null
+        settings: null # Trauma - removed mob raffle timer
     - type: NpcFactionMember
       factions:
         - SimpleHostile
@@ -254,7 +254,7 @@
       mindRoles:
       - MindRoleGhostRoleTeamAntagonist
       raffle:
-        settings: null
+        settings: null # Trauma - removed mob raffle timer
     - type: NpcFactionMember
       factions:
         - SimpleHostile

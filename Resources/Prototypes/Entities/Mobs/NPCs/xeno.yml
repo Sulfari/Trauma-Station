@@ -9,7 +9,6 @@
   components:
   # <Trauma>
   - type: GhostRole
-      makeSentient: true
       name: ghost-role-information-purple-snake-name
       description: ghost-role-information-purple-snake-description
       rules: ghost-role-information-antagonist-rules
@@ -97,7 +96,6 @@
   components:
   # <Trauma>
   - type: GhostRole
-      makeSentient: true
       name: ghost-role-information-small-purple-snake-name
       description: ghost-role-information-small-purple-snake-description
       rules: ghost-role-information-antagonist-rules

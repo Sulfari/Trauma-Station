@@ -2765,7 +2765,7 @@
   id: SolutionVenomSpider
   categories: [ HideSpawnMenu ]
 
- type: entity
+- type: entity
   parent: MobSpiderBase
   id: MobSpiderAngryBase
   abstract: true
@@ -2778,7 +2778,7 @@
     mindRoles:
     - MindRoleGhostRoleTeamAntagonist
     raffle:
-      settings: null # Trauma - changed mob to have no raffle timer
+      settings: null # Trauma - removed mob raffle timer
   - type: NpcFactionMember
     factions:
       - Xeno
