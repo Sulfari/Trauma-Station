@@ -323,8 +323,6 @@
       mindRoles:
       - MindRoleGhostRoleTeamAntagonist
       raffle: null
-    # </Trauma>
-    # <Goob>
     - type: Fauna
     - type: LanguageSpeaker
       speaks:
@@ -335,7 +333,7 @@
     - type: NpcFactionMember
       factions:
       - Xeno # Aligning them with Space Adders
-    # </Goob>
+    # </Trauma>
     - type: Sprite
       drawdepth: Mobs
       sprite: Mobs/Animals/spacecobra.rsi

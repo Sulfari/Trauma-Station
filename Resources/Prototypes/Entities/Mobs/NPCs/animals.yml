@@ -2770,14 +2770,6 @@
   id: MobSpiderAngryBase
   abstract: true
   components:
-  - type: GhostRole
-    makeSentient: true
-    name: ghost-role-information-giant-spider-name
-    description: ghost-role-information-giant-spider-description
-    rules: ghost-role-information-giant-spider-rules
-    mindRoles:
-    - MindRoleGhostRoleTeamAntagonist
-    raffle: null # Trauma - removed mob raffle timer
   - type: NpcFactionMember
     factions:
       - Xeno
@@ -2786,6 +2778,14 @@
   - type: HTN
     rootTask:
       task: SimpleHostileCompound
+  - type: GhostRole
+    makeSentient: true
+    name: ghost-role-information-giant-spider-name
+    description: ghost-role-information-giant-spider-description
+    rules: ghost-role-information-giant-spider-rules
+    mindRoles:
+    - MindRoleGhostRoleTeamAntagonist
+    raffle: null # Trauma - removed mob raffle timer
   - type: GhostTakeoverAvailable
 
 - type: entity
