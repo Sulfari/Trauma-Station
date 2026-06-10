@@ -10040,3 +10040,12 @@ Entries:
   id: 1136
   time: '2026-06-10T01:27:45.0000000+00:00'
   url: https://github.com/Trauma-Station/Trauma-Station/pull/3128
+- author: deltanedas
+  changes:
+  - type: Fix
+    message: >-
+      Fixed interactors trying to use/attack ghosts, blood splatters and other
+      nonphysical things.
+  id: 1137
+  time: '2026-06-10T01:34:48.0000000+00:00'
+  url: https://github.com/Trauma-Station/Trauma-Station/pull/3132
