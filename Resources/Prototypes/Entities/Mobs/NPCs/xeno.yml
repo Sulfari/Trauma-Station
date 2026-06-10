@@ -8,12 +8,13 @@
   description: A menacing purple snake from Kepler-283c.
   components:
   # <Trauma>
+  - type: GhostTakeoverAvailable
   - type: GhostRole
-      name: ghost-role-information-purple-snake-name
-      description: ghost-role-information-purple-snake-description
-      rules: ghost-role-information-antagonist-rules
-      raffle:
-        settings: null
+    name: ghost-role-information-purple-snake-name
+    description: ghost-role-information-purple-snake-description
+    rules: ghost-role-information-antagonist-rules
+    raffle:
+      settings: null
   # </Trauma>
   - type: Sprite
     drawdepth: Mobs
@@ -95,12 +96,13 @@
   description: A smaller version of the menacing purple snake from Kepler-283c.
   components:
   # <Trauma>
+  - type: GhostTakeoverAvailable
   - type: GhostRole
-      name: ghost-role-information-small-purple-snake-name
-      description: ghost-role-information-small-purple-snake-description
-      rules: ghost-role-information-antagonist-rules
-      raffle:
-        settings: null
+    name: ghost-role-information-small-purple-snake-name
+    description: ghost-role-information-small-purple-snake-description
+    rules: ghost-role-information-antagonist-rules
+    raffle:
+      settings: null
   # </Trauma>
   - type: Sprite
     drawdepth: Mobs

@@ -315,6 +315,7 @@
   description: Long fangs and a glowing hood, and the alluring look begs to come closer.
   components:
     # <Trauma>
+    - type: GhostTakeoverAvailable
     - type: GhostRole
       name: ghost-role-information-cobra-space-name
       description: ghost-role-information-cobra-space-description
