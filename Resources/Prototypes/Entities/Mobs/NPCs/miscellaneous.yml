@@ -78,7 +78,7 @@
     mindRoles:
     - MindRoleGhostRoleFamiliar
     raffle:
-      settings: short
+      settings: null
   - type: GhostTakeoverAvailable
   - type: CanEscapeInventory
     baseResistTime: 3

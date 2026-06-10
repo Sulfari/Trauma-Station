@@ -2765,19 +2765,11 @@
   id: SolutionVenomSpider
   categories: [ HideSpawnMenu ]
 
-- type: entity
+ type: entity
   parent: MobSpiderBase
   id: MobSpiderAngryBase
   abstract: true
   components:
-  - type: NpcFactionMember
-    factions:
-      - Xeno
-  - type: InputMover
-  - type: MobMover
-  - type: HTN
-    rootTask:
-      task: SimpleHostileCompound
   - type: GhostRole
     makeSentient: true
     name: ghost-role-information-giant-spider-name
@@ -2786,7 +2778,15 @@
     mindRoles:
     - MindRoleGhostRoleTeamAntagonist
     raffle:
-      settings: short
+      settings: null # Trauma - changed mob to have no raffle timer
+  - type: NpcFactionMember
+    factions:
+      - Xeno
+  - type: InputMover
+  - type: MobMover
+  - type: HTN
+    rootTask:
+      task: SimpleHostileCompound
   - type: GhostTakeoverAvailable
 
 - type: entity

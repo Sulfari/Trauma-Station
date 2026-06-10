@@ -23,7 +23,7 @@
       mindRoles:
       - MindRoleGhostRoleTeamAntagonist
       raffle:
-        settings: short
+        settings: null # Trauma - changed mob shark to have no raffle timer
     - type: GhostTakeoverAvailable
     - type: HTN
       rootTask:

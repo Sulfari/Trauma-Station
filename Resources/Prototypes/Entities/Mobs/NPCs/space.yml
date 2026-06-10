@@ -314,6 +314,14 @@
   parent: [ AppearanceSpaceCobra, MobSpaceBasic ] # Shitmed
   description: Long fangs and a glowing hood, and the alluring look begs to come closer.
   components:
+    # <Trauma>
+    - type: GhostRole
+      name: ghost-role-information-cobra-space-name
+      description: ghost-role-information-cobra-space-description
+      rules: ghost-role-information-antagonist-rules
+      mindRoles:
+      - MindRoleGhostRoleTeamAntagonist
+    # </Trauma>
     # <Goob>
     - type: Fauna
     - type: LanguageSpeaker
