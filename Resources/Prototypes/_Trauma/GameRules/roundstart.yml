@@ -29,8 +29,9 @@
         weight: 70
 
 - type: entity
+  abstract: true
   parent: BaseRoundstartAntagRule
-  id: InsurgencyBase
+  id: BaseInsurgencyRule
   components:
   - type: RuleGrids
   - type: LoadMapRule
@@ -55,14 +56,14 @@
       playerRatio: 10
 
 - type: entity
-  parent: InsurgencyBase
+  parent: BaseInsurgencyRule
   id: InsurgencyShipVariantInsurgents
   components:
   - type: LoadMapRule
     gridPath: /Maps/_Trauma/Shuttles/insurgents.yml
 
 - type: entity
-  parent: InsurgencyBase
+  parent: BaseInsurgencyRule
   id: InsurgencyShipVariantTide
   components:
   - type: LoadMapRule
