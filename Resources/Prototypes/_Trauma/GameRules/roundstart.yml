@@ -23,9 +23,9 @@
   - type: NestedRule
     rules: !type:GroupSelector
       children:
-      - id: InsurgencyNewShip
+      - id: InsurgencyShipVariantTide
         weight: 30
-      - id: InsurgencyOldShip
+      - id: InsurgencyShipVariantInsurgents
         weight: 70
 
 - type: entity
@@ -56,17 +56,17 @@
 
 - type: entity
   parent: InsurgencyBase
-  id: InsurgencyOldShip
+  id: InsurgencyShipVariantInsurgents
   components:
   - type: LoadMapRule
     gridPath: /Maps/_Trauma/Shuttles/insurgents.yml
 
 - type: entity
   parent: InsurgencyBase
-  id: InsurgencyNewShip
+  id: InsurgencyShipVariantTide
   components:
   - type: LoadMapRule
-    gridPath: /Maps/_Trauma/Shuttles/newinsurgents.yml
+    gridPath: /Maps/_Trauma/Shuttles/tide_insurgents.yml
 
 - type: entity
   parent: BaseGameRule
