@@ -1192,18 +1192,18 @@ entities:
       rot: -1.5707963267948966 rad
       pos: 4.5,8.5
       parent: 2
-  - uid: 320
-    components:
-    - type: Transform
-      pos: 6.5,0.5
-      parent: 2
-      rot: 3.141592653589793 rad
   - uid: 322
     components:
     - type: Transform
       rot: 3.141592653589793 rad
       pos: 5.5,0.5
       parent: 2
+  - uid: 341
+    components:
+    - type: Transform
+      pos: 2.5,-1.5
+      parent: 2
+      rot: 3.141592653589793 rad
 - proto: WallShuttle
   entities:
   - uid: 179
@@ -1720,6 +1720,7 @@ entities:
   - uid: 324
     components:
     - type: Transform
+      anchored: True
       pos: 0.5,4.5
       parent: 2
     - type: MaterialStorage
