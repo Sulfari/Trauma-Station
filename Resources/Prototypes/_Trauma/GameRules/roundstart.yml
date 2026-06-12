@@ -15,11 +15,23 @@
       prob: 0.02
 
 - type: entity
-  parent: BaseRoundstartAntagRule
+  parent: BaseGameRule
   id: Insurgency
   components:
   - type: GameRule
-    minPlayers: 5 # no insurgents on deadpop
+    minPlayers: 5
+  - type: NestedRule
+    rules: !type:GroupSelector
+      children:
+      - id: InsurgencyNewShip
+        weight: 30
+      - id: InsurgencyOldShip
+        weight: 70
+
+- type: entity
+  parent: BaseRoundstartAntagRule
+  id: InsurgencyBase
+  components:
   - type: RuleGrids
   - type: LoadMapRule
     gridPath: /Maps/_Trauma/Shuttles/insurgents.yml
@@ -41,6 +53,20 @@
         min: 1
         max: 4
       playerRatio: 10
+
+- type: entity
+  parent: InsurgencyBase
+  id: InsurgencyOldShip
+  components:
+  - type: LoadMapRule
+    gridPath: /Maps/_Trauma/Shuttles/insurgents.yml
+
+- type: entity
+  parent: InsurgencyBase
+  id: InsurgencyNewShip
+  components:
+  - type: LoadMapRule
+    gridPath: /Maps/_Trauma/Shuttles/newinsurgents.yml
 
 - type: entity
   parent: BaseGameRule
