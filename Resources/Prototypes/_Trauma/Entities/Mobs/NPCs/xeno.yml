@@ -13,11 +13,6 @@
     mindRoles:
     - MindRoleGhostRoleTeamAntagonist
     raffle: null
-  - type: NightVision
-    color: "#808080"
-    activateSound: null
-    deactivateSound: null
-  - type: VentCrawler
 
 - type: entity
   name: space adder
@@ -34,8 +29,3 @@
     mindRoles:
     - MindRoleGhostRoleTeamAntagonist
     raffle: null
-  - type: NightVision
-    color: "#808080"
-    activateSound: null
-    deactivateSound: null
-  - type: VentCrawler

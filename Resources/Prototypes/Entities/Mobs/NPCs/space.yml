@@ -325,6 +325,11 @@
     - type: NpcFactionMember
       factions:
       - Xeno # Aligning them with Space Adders
+    - type: NightVision
+      color: "#808080"
+      activateSound: null
+      deactivateSound: null
+    - type: VentCrawler
     # </Trauma>
     - type: Sprite
       drawdepth: Mobs

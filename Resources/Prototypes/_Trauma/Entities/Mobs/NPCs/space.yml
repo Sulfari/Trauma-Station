@@ -1,8 +1,8 @@
 - type: entity
-  name: space cobra
-  id: MobCobraSpaceVent
-  suffix: DO NOT MAP
   parent: MobCobraSpace
+  id: MobCobraSpaceVent
+  name: space cobra
+  suffix: DO NOT MAP
   description: Long fangs and a glowing hood, and the alluring look begs to come closer.
   components:
     - type: GhostTakeoverAvailable
@@ -13,8 +13,3 @@
       mindRoles:
       - MindRoleGhostRoleTeamAntagonist
       raffle: null
-    - type: NightVision
-      color: "#808080"
-      activateSound: null
-      deactivateSound: null
-    - type: VentCrawler
