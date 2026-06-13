@@ -13,18 +13,17 @@
     mindRoles:
     - MindRoleGhostRoleTeamAntagonist
     raffle: null
-    - type: NightVision
-      color: "#808080"
-      activateSound: null
-      deactivateSound: null
-    - type: VentCrawler
+  - type: NightVision
+    color: "#808080"
+    activateSound: null
+    deactivateSound: null
+  - type: VentCrawler
 
 - type: entity
   name: space adder
   suffix: DO NOT MAP
   parent: MobSmallPurpleSnake
   id: MobSmallPurpleSnakeVent
-  suffix: small
   description: A smaller version of the menacing purple snake from Kepler-283c.
   components:
   - type: GhostTakeoverAvailable
@@ -35,8 +34,8 @@
     mindRoles:
     - MindRoleGhostRoleTeamAntagonist
     raffle: null
-    - type: NightVision
-      color: "#808080"
-      activateSound: null
-      deactivateSound: null
-    - type: VentCrawler
+  - type: NightVision
+    color: "#808080"
+    activateSound: null
+    deactivateSound: null
+  - type: VentCrawler
