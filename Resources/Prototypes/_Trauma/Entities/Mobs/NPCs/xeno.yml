@@ -1,0 +1,32 @@
+- type: entity
+  name: space adder
+  parent: MobPurpleSnake
+  id: MobPurpleSnakeVent
+  description: A menacing purple snake from Kepler-283c.
+  components:
+  - type: GhostTakeoverAvailable
+  - type: GhostRole
+    name: ghost-role-information-purple-snake-name
+    description: ghost-role-information-purple-snake-description
+    rules: ghost-role-information-antagonist-rules
+    mindRoles:
+    - MindRoleGhostRoleTeamAntagonist
+    raffle: null
+
+- type: entity
+  name: space adder
+  parent: MobSmallPurpleSnake
+  id: MobSmallPurpleSnakeVent
+  suffix: small
+  description: A smaller version of the menacing purple snake from Kepler-283c.
+  components:
+  # <Trauma>
+  - type: GhostTakeoverAvailable
+  - type: GhostRole
+    name: ghost-role-information-small-purple-snake-name
+    description: ghost-role-information-small-purple-snake-description
+    rules: ghost-role-information-antagonist-rules
+    mindRoles:
+    - MindRoleGhostRoleTeamAntagonist
+    raffle: null
+  # </Trauma>
