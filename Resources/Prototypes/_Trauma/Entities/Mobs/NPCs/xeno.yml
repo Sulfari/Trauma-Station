@@ -20,7 +20,6 @@
   suffix: small
   description: A smaller version of the menacing purple snake from Kepler-283c.
   components:
-  # <Trauma>
   - type: GhostTakeoverAvailable
   - type: GhostRole
     name: ghost-role-information-small-purple-snake-name
@@ -29,4 +28,3 @@
     mindRoles:
     - MindRoleGhostRoleTeamAntagonist
     raffle: null
-  # </Trauma>
