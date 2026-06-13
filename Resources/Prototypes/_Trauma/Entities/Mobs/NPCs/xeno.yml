@@ -1,5 +1,6 @@
 - type: entity
   name: space adder
+  suffix: DO NOT MAP
   parent: MobPurpleSnake
   id: MobPurpleSnakeVent
   description: A menacing purple snake from Kepler-283c.
@@ -15,6 +16,7 @@
 
 - type: entity
   name: space adder
+  suffix: DO NOT MAP
   parent: MobSmallPurpleSnake
   id: MobSmallPurpleSnakeVent
   suffix: small

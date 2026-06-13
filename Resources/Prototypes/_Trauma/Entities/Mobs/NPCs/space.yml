@@ -1,6 +1,7 @@
 - type: entity
   name: space cobra
   id: MobCobraSpaceVent
+  suffix: DO NOT MAP
   parent: MobCobraSpace
   description: Long fangs and a glowing hood, and the alluring look begs to come closer.
   components:
