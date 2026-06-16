@@ -66,8 +66,8 @@
 - type: npcFaction
   id: PetsNT
   friendly:
-  - NanoTrasen
   - AllHostile # Trauma - Moved from hostile to friendly, NT pets shouldn't attack station turrets
+  - NanoTrasen
   hostile:
   # <Goob>
   - Balloon # Pets can join the fight against the balloons
