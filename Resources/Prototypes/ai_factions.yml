@@ -81,7 +81,7 @@
   - SimpleHostile
   - Zombie
   - Xeno
-  - AllHostile # Trauma - Moved from hostile to friendly, NT pets shouldn't attack station turrets
+  - AllHostile
   - Dragon
   # <Trauma>
   - Insurgent

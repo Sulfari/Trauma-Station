@@ -36,7 +36,7 @@
         compName: NpcFactionMember
         range: 3
         effect: !type:ChangeFaction
-          newFaction: AllHostile
+          newFaction: AllHostile # BILLIONS MUST KILL
           duration: 30
   - type: Tag
     tags:
