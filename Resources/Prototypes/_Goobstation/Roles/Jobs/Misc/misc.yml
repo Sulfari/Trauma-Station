@@ -154,7 +154,7 @@
     components:
     - type: NpcFactionMember
       factions:
-      - StationAiFaction
+      - AllHostile
 
 - type: startingGear
   id: MercenaryCaptainGear
