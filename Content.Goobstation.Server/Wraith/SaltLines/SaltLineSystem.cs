@@ -22,7 +22,7 @@ public sealed partial class SaltLineSystem : EntitySystem
 
     private static readonly ProtoId<ReagentPrototype> ReagentSalt = "TableSalt";
 
-    private EntityQuery<SolutionContainerManagerComponent> _solutionContainerManQuery;
+    private EntityQuery<SolutionComponent> _solutionContainerManQuery;
 
     public override void Initialize()
     {
@@ -35,7 +35,7 @@ public sealed partial class SaltLineSystem : EntitySystem
 
         SubscribeLocalEvent<ConsumeOnSaltLineComponent, AttemptSaltLineEvent>(OnAttemptSaltLine);
 
-        _solutionContainerManQuery = GetEntityQuery<SolutionContainerManagerComponent>();
+        _solutionContainerManQuery = GetEntityQuery<SolutionComponent>();
     }
 
     private void OnMapInit(Entity<SaltLineComponent> ent, ref MapInitEvent args) =>
