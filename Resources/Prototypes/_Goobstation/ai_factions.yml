@@ -12,21 +12,21 @@
   - Blob
   - Insurgent
   - CrabFaction
-  - ValidAntag
+  - StationAiFaction
 
 - type: npcFaction
   id: Balloon
   # Balloons can't attack
   hostile:
   - Insurgent
-  - ValidAntag
+  - StationAiFaction
 
 - type: npcFaction
   id: Monkey
   hostile:
   - Balloon # Custom faction specifically for attacking bloons
   - Insurgent
-  - ValidAntag
+  - StationAiFaction
 
 - type: npcFaction
   id: Wraith
@@ -45,7 +45,7 @@
   - Blob
   - PirateFaction
   - Insurgent
-  - ValidAntag
+  - StationAiFaction
   friendly:
   - Lavafauna
   - CrabFaction
@@ -71,7 +71,7 @@
   - Wizard
   - PirateFaction
   - Insurgent
-  - ValidAntag
+  - StationAiFaction
   friendly:
   - Dragon
   - CrabFaction
@@ -98,4 +98,4 @@
   - Xenoborg
   - Insurgent
   - CrabFaction
-  - ValidAntag
+  - StationAiFaction

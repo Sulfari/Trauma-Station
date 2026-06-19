@@ -154,7 +154,7 @@
     components:
     - type: NpcFactionMember
       factions:
-      - ValidAntag
+      - StationAiFaction
 
 - type: startingGear
   id: MercenaryCaptainGear

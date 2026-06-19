@@ -76,7 +76,7 @@
   - type: StationAiWhitelist
   - type: NpcFactionMember
     factions:
-    - AllHostile
+    - NanoTrasen
   - type: BatteryAmmoProvider
     proto: BulletEnergyTurretDisabler
     fireCost: 100

@@ -15,7 +15,7 @@
   - Blob
   - Shadowling
   - Insurgent
-  - ValidAntag
+  - StationAiFaction
   friendly:
   - Wizard # was hostile, now they're friendly
   - PirateFaction
@@ -47,7 +47,7 @@
   # <Trauma>
   - Insurgent
   - CrabFaction
-  - ValidAntag
+  - StationAiFaction
   # </Trauma>
 
 - type: npcFaction
@@ -56,7 +56,7 @@
   # <Trauma>
   hostile:
   - Insurgent
-  - ValidAntag
+  - StationAiFaction
   # </Trauma>
 
 - type: npcFaction
@@ -64,13 +64,12 @@
   # <Trauma>
   hostile:
   - Insurgent
-  - ValidAntag
+  - StationAiFaction
   # </Trauma>
 
 - type: npcFaction
   id: PetsNT
   friendly:
-  - AllHostile # Trauma - Moved from hostile to friendly, NT pets shouldn't attack station turrets
   - NanoTrasen
   hostile:
   # <Goob>
@@ -82,11 +81,12 @@
   - SimpleHostile
   - Zombie
   - Xeno
+  - AllHostile # Trauma - Moved from hostile to friendly, NT pets shouldn't attack station turrets
   - Dragon
   # <Trauma>
   - Insurgent
   - CrabFaction
-  - ValidAntag
+  - StationAiFaction
   # </Trauma>
 
 - type: npcFaction
@@ -110,7 +110,7 @@
   - Lavafauna
   # <Trauma>
   - Insurgent
-  - ValidAntag
+  - StationAiFaction
   # </Trauma>
   friendly:
   - Wizard # was hostile, now they're friendly
@@ -123,7 +123,7 @@
   # <Trauma>
   hostile:
   - Insurgent
-  - ValidAntag
+  - StationAiFaction
   # </Trauma>
 
 - type: npcFaction
@@ -150,7 +150,7 @@
   # <Trauma>
   - Insurgent
   - CrabFaction
-  - ValidAntag
+  - StationAiFaction
   # </Trauma>
 
 - type: npcFaction
@@ -176,7 +176,7 @@
   # <Trauma>
   - Insurgent
   - CrabFaction
-  - ValidAntag
+  - StationAiFaction
   # </Trauma>
   friendly: # Goob - wizard is now friendly
   - Wizard
@@ -196,7 +196,7 @@
   - Wraith
   - Lavafauna
   - CrabFaction
-  - ValidAntag
+  - StationAiFaction
   # </Trauma>
   - NanoTrasen
   - SimpleNeutral
@@ -229,7 +229,7 @@
   - SimpleNeutral
   - Syndicate
   - Xeno
-  - ValidAntag
+  - StationAiFaction
   # </Trauma>
   - NanoTrasen
   - Zombie
@@ -271,7 +271,7 @@
   # <Trauma>
   - Insurgent
   - CrabFaction
-  - ValidAntag
+  - StationAiFaction
   # </Trauma>
 
 - type: npcFaction
@@ -292,7 +292,7 @@
   - Xenoborg
   # <Trauma>
   - Insurgent
-  - ValidAntag
+  - StationAiFaction
   # </Trauma>
 
 - type: npcFaction
@@ -317,5 +317,5 @@
   - AllHostile
   # <Trauma>
   - Insurgent
-  - ValidAntag
+  - StationAiFaction
   # </Trauma>
