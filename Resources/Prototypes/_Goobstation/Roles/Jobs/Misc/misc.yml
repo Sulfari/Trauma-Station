@@ -154,7 +154,7 @@
     components:
     - type: NpcFactionMember
       factions:
-      - AllHostile
+      - ValidAntag
 
 - type: startingGear
   id: MercenaryCaptainGear

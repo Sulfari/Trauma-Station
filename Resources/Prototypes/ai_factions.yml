@@ -15,6 +15,7 @@
   - Blob
   - Shadowling
   - Insurgent
+  - ValidAntag
   friendly:
   - Wizard # was hostile, now they're friendly
   - PirateFaction
@@ -46,6 +47,7 @@
   # <Trauma>
   - Insurgent
   - CrabFaction
+  - ValidAntag
   # </Trauma>
 
 - type: npcFaction
@@ -54,6 +56,7 @@
   # <Trauma>
   hostile:
   - Insurgent
+  - ValidAntag
   # </Trauma>
 
 - type: npcFaction
@@ -61,6 +64,7 @@
   # <Trauma>
   hostile:
   - Insurgent
+  - ValidAntag
   # </Trauma>
 
 - type: npcFaction
@@ -82,6 +86,7 @@
   # <Trauma>
   - Insurgent
   - CrabFaction
+  - ValidAntag
   # </Trauma>
 
 - type: npcFaction
@@ -105,6 +110,7 @@
   - Lavafauna
   # <Trauma>
   - Insurgent
+  - ValidAntag
   # </Trauma>
   friendly:
   - Wizard # was hostile, now they're friendly
@@ -117,6 +123,7 @@
   # <Trauma>
   hostile:
   - Insurgent
+  - ValidAntag
   # </Trauma>
 
 - type: npcFaction
@@ -143,6 +150,7 @@
   # <Trauma>
   - Insurgent
   - CrabFaction
+  - ValidAntag
   # </Trauma>
 
 - type: npcFaction
@@ -168,6 +176,7 @@
   # <Trauma>
   - Insurgent
   - CrabFaction
+  - ValidAntag
   # </Trauma>
   friendly: # Goob - wizard is now friendly
   - Wizard
@@ -187,6 +196,7 @@
   - Wraith
   - Lavafauna
   - CrabFaction
+  - ValidAntag
   # </Trauma>
   - NanoTrasen
   - SimpleNeutral
@@ -219,6 +229,7 @@
   - SimpleNeutral
   - Syndicate
   - Xeno
+  - ValidAntag
   # </Trauma>
   - NanoTrasen
   - Zombie
@@ -260,6 +271,7 @@
   # <Trauma>
   - Insurgent
   - CrabFaction
+  - ValidAntag
   # </Trauma>
 
 - type: npcFaction
@@ -280,6 +292,7 @@
   - Xenoborg
   # <Trauma>
   - Insurgent
+  - ValidAntag
   # </Trauma>
 
 - type: npcFaction
@@ -304,4 +317,5 @@
   - AllHostile
   # <Trauma>
   - Insurgent
+  - ValidAntag
   # </Trauma>
