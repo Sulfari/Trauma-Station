@@ -19,14 +19,12 @@
   # Balloons can't attack
   hostile:
   - Insurgent
-  - StationAiFaction
 
 - type: npcFaction
   id: Monkey
   hostile:
   - Balloon # Custom faction specifically for attacking bloons
   - Insurgent
-  - StationAiFaction
 
 - type: npcFaction
   id: Wraith

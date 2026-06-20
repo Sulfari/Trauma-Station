@@ -24,6 +24,7 @@
   - Wizard
   - Xenoborg
   - CrabFaction
+  - StationAiFaction
 
 - type: npcFaction
   id: InsurgentDestroyer9000
@@ -60,6 +61,7 @@
   - Zombie
   - Revolutionary
   - AllHostile
+  - StationAiFaction
 
 - type: npcFaction
   id: StationAiFaction

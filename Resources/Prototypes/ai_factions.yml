@@ -47,7 +47,6 @@
   # <Trauma>
   - Insurgent
   - CrabFaction
-  - StationAiFaction
   # </Trauma>
 
 - type: npcFaction
@@ -56,7 +55,6 @@
   # <Trauma>
   hostile:
   - Insurgent
-  - StationAiFaction
   # </Trauma>
 
 - type: npcFaction
@@ -64,7 +62,6 @@
   # <Trauma>
   hostile:
   - Insurgent
-  - StationAiFaction
   # </Trauma>
 
 - type: npcFaction
@@ -86,7 +83,6 @@
   # <Trauma>
   - Insurgent
   - CrabFaction
-  - StationAiFaction
   # </Trauma>
 
 - type: npcFaction
@@ -123,7 +119,6 @@
   # <Trauma>
   hostile:
   - Insurgent
-  - StationAiFaction
   # </Trauma>
 
 - type: npcFaction
