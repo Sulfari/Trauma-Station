@@ -173,7 +173,7 @@
             type: [Plant]
           - !type:ReagentCondition
             reagent: RobustHarvest
-            min: 80
+            min: 50
 
 - type: reagent
   id: Sedin
